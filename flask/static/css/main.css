@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.page-head,
+.page-descritption{
+    text-align: center ;
+}
+.page-head{
+    font-size: 40px;
+    margin: 20px 0 0;
+}
+.page-descritption{
+    font-size: 22px;
+    margin: 5px;
+}
