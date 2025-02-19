@@ -3,7 +3,7 @@ from flask import Flask, render_template  # Corriger l'import
 # Initialisation de l'application Flask
 skills_app = Flask(__name__)
 
-my_skills = [("Html",80),("CSS",75),("Python",80)]
+my_skills = [("Html",80),("CSS",75),("Python",30)]
 
 
 # Définition de la page d'accueil
