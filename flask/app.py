@@ -1,5 +1,4 @@
-from flask import Flask, render_template  # Corriger l'import
-
+from flask import Flask, render_template  
 # Initialisation de l'application Flask
 skills_app = Flask(__name__)
 
@@ -11,7 +10,7 @@ my_skills = [("Html",80),("CSS",75),("Python",30)]
 def homepage():
     return render_template("homepage.html", 
     pagetitle="Homepage",
-    custom_css = "home")  # Corriger l'appel de la fonction
+    custom_css = "home")  
 
 # Définition de la page "Add"
 @skills_app.route("/add")
@@ -34,7 +33,7 @@ def skills():
                            custom_css = "skills")
 
 #dans les vraibles que je veux passe dans une page html Jinja2 ne lit pas tirer "-"
-#page head et description sont de parametre paser ala page html skills.html et qui vont afciher dans cette page 
+#page head et description sont de parametre passer a la page html skills.html et qui vont afciher dans cette page 
 
 
 # Démarrage du serveur Flask si ce fichier est exécuté directement
