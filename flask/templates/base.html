@@ -9,15 +9,13 @@
     {% if custom_css %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/' + custom_css +'.css') }}">
     {% endif %}
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/ jquery-3.7.1.min.map') }}"></script>
 
 </head>
 <body>
    {% block body %} 
    {% endblock %}
-   <script src="{{ url_for('static', filename='js/main.js') }}"></script>
-   <script src="{{ url_for('static', filename='js/ jquery-3.7.1.min.map') }}"></script>
-
-
-
+   
 </body>
 </html>
