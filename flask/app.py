@@ -32,7 +32,7 @@ def skills():
                            skills = my_skills,
                            custom_css = "skills")
 
-#dans les vraibles que je veux passe dans une page html Jinja2 ne lit pas tirer "-"
+#dans les vraibles que je veux passer dans une page html Jinja2 ne lit pas tirer "-"
 #page head et description sont de parametre passer a la page html skills.html et qui vont afciher dans cette page 
 
 
