@@ -28,7 +28,7 @@ def about():
 def skills():
     return render_template("skills.html", pagetitle="My skills" ,
                            page_head = "My Skills" , 
-                           description = "this is My Skilss Page",
+                           description = "this is My Skils Page",
                            skills = my_skills,
                            custom_css = "skills")
 
