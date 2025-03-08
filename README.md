@@ -1,4 +1,4 @@
-# Flask_Python_Docker – Mini-Application Flask avec Docker
+# Flask_Python_Docker 
 
 ## Description  
 Ce projet est une mini-application Flask qui affiche une liste de **compétences** avec des **barres de progression animées en JavaScript pur** (sans jQuery). L'application est conteneurisée avec **Docker**, ce qui facilite son déploiement et son exécution dans un environnement isolé.
