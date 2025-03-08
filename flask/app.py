@@ -38,4 +38,5 @@ def skills():
 
 # Démarrage du serveur Flask si ce fichier est exécuté directement
 if __name__ == "__main__":
-    skills_app.run(debug=True)  # Active le mode debug
+    skills_app.run(debug=True, host="0.0.0.0")
+  # Active le mode debug
