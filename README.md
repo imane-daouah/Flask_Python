@@ -15,7 +15,7 @@ Fonctionnalités
 
 Installation & Exécution
 
-### 1. Cloner le projet
+1. Cloner le projet
 ```bash
 git clone https://github.com/imane-daouah/Flask_Python_Docker.git
 ```
